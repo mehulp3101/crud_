@@ -1,0 +1,155 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+    color: #404040;
+}
+
+.display-1{
+  margin-top:10px;  
+}
+
+.nunito-sans-serif {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .flex-column ul{
+    padding-top: 50px;
+  }
+  .flex-column ul > li {
+    background-color: #a52a2a;
+    color: #fff !important;
+    padding: 8px 79px;
+    margin: 5px 2px;
+    font-size: 19px;
+    font-weight: 600;
+  } 
+   
+  .flex-column ul > li > a {
+    color: #fff; 
+  }
+  
+  .flex-column ul > li > a > i {
+    color: #fff;
+  }
+
+  .flex-column .nav-pills .nav-link.active {
+    background-color: #a52a2a;
+    color: white !important; 
+  } 
+
+  .flex-column ul > li > a > .active i{
+    color: #fff;
+  }
+
+  .flex-column .nav-pills > li > .active  > i {
+    color: #fff;
+  }
+
+  .flex-column ul > li > a > span{
+    color: #fff;
+}
+
+  .flex-column ul > li.active {
+    border: 2px solid;
+  }
+
+  .row .reference{
+    border: 2px solid black;
+    border-style: dotted;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .container .row .mx-auto h6, .container .row .mx-auto p{
+    color: #fff;
+  }
+  .dataa{
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
+  }
+
+  .jumbotron {
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    background-color: #e9ecef;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display:none;
+  }
+}
